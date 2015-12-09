@@ -1,0 +1,6 @@
+deployment:
+    aws:
+    branch: development
+        commands:
+        - sudo pip install awscli
+        - /bin/bash circle/circle-deploy-development.sh
