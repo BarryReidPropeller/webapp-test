@@ -3,7 +3,7 @@ dependencies:
         - sudo pip install awscli
 
 deployment:
-    aws:
-    branch: development
+    development:
+        branch: development
         commands:
-        - /bin/bash circle/circle-deploy-development.sh
+          - /bin/bash circle/circle-deploy-development.sh
