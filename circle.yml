@@ -1,6 +1,9 @@
+dependencies:
+    override:
+        - sudo pip install awscli
+
 deployment:
     aws:
     branch: development
         commands:
-        - sudo pip install awscli
         - /bin/bash circle/circle-deploy-development.sh
