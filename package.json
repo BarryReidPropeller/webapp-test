@@ -1,0 +1,25 @@
+{
+  "name": "webapp-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BarryReidPropeller/webapp-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BarryReidPropeller/webapp-test/issues"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.48"
+  }
+}
