@@ -2,7 +2,7 @@
 var AppComponent = ng
   .Component({
     selector: 'my-app',
-    template: '<h1>Propeller WebApp</h1>'
+    template: '<h1>Propeller WebApp - New</h1>'
   })
   .Class({
     constructor: function () { }

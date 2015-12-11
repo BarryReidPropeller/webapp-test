@@ -1,13 +1,13 @@
 dependencies:
-    override:
-        - sudo pip install awscli
+  post:
+    - sudo pip install awscli
 
 deployment:
-    development:
-        branch: development
-        commands:
-          - /bin/bash circle/circle-deploy-development.sh
-    production:
-        branch: master
-        commands:
-          - /bin/bash circle/circle-deploy-production.sh
+  development:
+    branch: development
+    commands:
+      - /bin/bash circle/circle-deploy-development.sh
+  production:
+    branch: master
+    commands:
+      - /bin/bash circle/circle-deploy-production.sh
